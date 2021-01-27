@@ -5,7 +5,7 @@ from django.db.models import Q
 
 # Create your views here.
 layout = """
-    <h1> Proyecto Web (LP3) || Flor Cerdán </h1>
+    <h1> Proyecto Web (LP3) || Diana Santos </h1>
     <hr/>
     <ul>
         <li>
@@ -44,7 +44,7 @@ def index(request):
 def saludo(request):
     return render(request, 'saludo.html', {
         'titulo': 'Saludo',
-        'autor_saludo': 'Mg. Flor Elizabeth Cerdán León'
+        'autor_saludo': 'Diana Santos B'
     })
 
 
